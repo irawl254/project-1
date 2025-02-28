@@ -9,6 +9,12 @@
     background-color: #D8DDD1;
     margin: 0
    }
+   p{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
 
    header{
     background-color: #72AB9D;
@@ -36,6 +42,7 @@
     margin-top: 0px;
     font-size: 20px;
     border: 2px solid pink;
+    font-family: "Nunito", sans-serif;
 }
 nav{
     background-color: #23534E;
@@ -59,6 +66,8 @@ nav{
     color: #D8DDD1;
     padding: 10px;
     border: 2px solid yellow;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
     
   }
   
@@ -66,7 +75,7 @@ nav{
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    height: 100%;
+    height: auto;
     width: auto;
     margin: 0px;
     border: 2px solid blue;
@@ -83,6 +92,7 @@ nav{
     border: 2px solid greenyellow;
     background-color: #72AB9D;
     padding: 20px;
+    margin: 0px;
   }
 
 .content{
@@ -145,6 +155,7 @@ nav{
     align-items: space-around;
     border: 2px solid black;
     padding: 20px;
+    margin: 5px;
     
 }
 
@@ -153,6 +164,7 @@ nav{
     color: #fefbea;
     padding: 10px;
     font-size: 12px;
+    font-family: "Nunito", sans-serif;
     
 }
 
@@ -176,4 +188,34 @@ nav{
     font-size: 2rem;
     color: #23534E;
     margin: 5px;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.photos img{
+    width: auto;
+    height: 200px;
+    margin: 10px;
+
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #23534E;
+    color: #D8DDD1;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0px;
 }
